@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<req ver="2">
+  <tlm>
+    <src>
+      <desc>
+        <mach>
+          <os>
+            <arg nm="vermaj" val="10" />
+            <arg nm="vermin" val="0" />
+            <arg nm="verbld" val="19045" />
+            <arg nm="vercsdbld" val="3930" />
+            <arg nm="verqfe" val="3930" />
+            <arg nm="csdbld" val="3930" />
+            <arg nm="versp" val="0" />
+            <arg nm="arch" val="9" />
+            <arg nm="lcid" val="1033" />
+            <arg nm="geoid" val="244" />
+            <arg nm="sku" val="101" />
+            <arg nm="domain" val="0" />
+            <arg nm="prodsuite" val="768" />
+            <arg nm="ntprodtype" val="1" />
+            <arg nm="platid" val="2" />
+            <arg nm="tmsi" val="222510229" />
+            <arg nm="osinsty" val="1" />
+            <arg nm="iever" val="11.3636.19041.0-11.0.1000" />
+            <arg nm="portos" val="0" />
+            <arg nm="ram" val="4001" />
+            <arg nm="svolsz" val="232" />
+            <arg nm="wimbt" val="0" />
+            <arg nm="blddt" val="191206" />
+            <arg nm="bldtm" val="1406" />
+            <arg nm="bldbrch" val="vb_release" />
+            <arg nm="bldchk" val="0" />
+            <arg nm="os" val="windows" />
+            <arg nm="osver" val="10.0.19041.3930.amd64fre.vb_release.191206-1406" />
+            <arg nm="ring" val="Retail" />
+            <arg nm="edition" val="Core" />
+            <arg nm="edu" val="0" />
+          </os>
+          <hw>
+            <arg nm="form" val="2" />
+            <arg nm="arch" val="9" />
+            <arg nm="deviceclass" val="Windows.Desktop" />
+            <arg nm="sysmfg" val="Dell Inc." />
+            <arg nm="syspro" val="Latitude E6440" />
+            <arg nm="bv" val="A23" />
+            <arg nm="ram" val="4096" />
+            <arg nm="proccnt" val="4" />
+            <arg nm="proclsp" val="2494" />
+            <arg nm="wscpusc" val="0" />
+            <arg nm="wsdsksc" val="0" />
+            <arg nm="wscpudn" val="Intel(R) Core(TM) i5-4200M CPU @ 2.50GHz" />
+            <arg nm="wsdgsc" val="0" />
+            <arg nm="aoac" val="0" />
+            <arg nm="bssku" val="05BD" />
+            <arg nm="chid" val="{24912e0a-2492-57c7-9b12-800e2b7a040c}" />
+            <arg nm="sdksz" val="232" />
+            <arg nm="iptcapable" val="0" />
+          </hw>
+          <ctrl>
+            <arg nm="tm" val="133507843892539832" />
+            <arg nm="mid" val="{B416E662-2CDC-4EB4-8355-43F1CA046DBE}" />
+            <arg nm="sample" val="97972374" />
+            <arg nm="msft" val="0" />
+            <arg nm="test" val="0" />
+            <arg nm="scf" val="0" />
+            <arg nm="xboxlivesandboxid" val="RETAIL" />
+            <arg nm="telemetry" val="Basic" />
+            <arg nm="dmapolicy" val="2" />
+          </ctrl>
+        </mach>
+      </desc>
+    </src>
+    <reqs>
+      <req key="1">
+        <namespace svc="watson" ptr="windows" gp="windows8" app="praid:App">
+          <arg nm="p1" val="VectorUnit.BeachBuggyRacing_1.2.7.0_x64__hvbhrzr8672s2" />
+          <arg nm="p2" val="praid:App" />
+          <arg nm="p3" val="0.0.0.0" />
+          <arg nm="p4" val="55f30334" />
+          <arg nm="p5" val="combase.dll" />
+          <arg nm="p6" val="10.0.19041.3636" />
+          <arg nm="p7" val="613e7d3d" />
+          <arg nm="p8" val="80004002" />
+          <arg nm="p9" val="000000000001ccfa" />
+        </namespace>
+        <ctrl>
+          <arg nm="reportid" val="80848b0c-8d78-4704-945e-42fe1a5dc162" />
+          <arg nm="wowguest" val="0" />
+          <arg nm="wowhost" val="34404" />
+          <arg nm="iptenabled" val="0" />
+          <arg nm="reportsource" val="memory" />
+        </ctrl>
+        <cmd nm="event">
+          <arg nm="cat" val="generic" />
+          <arg nm="eventtype" val="MoAppCrash" />
+          <arg nm="p1" val="VectorUnit.BeachBuggyRacing_1.2.7.0_x64__hvbhrzr8672s2" />
+          <arg nm="p2" val="praid:App" />
+          <arg nm="p3" val="0.0.0.0" />
+          <arg nm="p4" val="55f30334" />
+          <arg nm="p5" val="combase.dll" />
+          <arg nm="p6" val="10.0.19041.3636" />
+          <arg nm="p7" val="613e7d3d" />
+          <arg nm="p8" val="80004002" />
+          <arg nm="p9" val="000000000001ccfa" />
+          <arg nm="appsessionguid" val="00002114-0001-0125-dfe1-fb38ad50da01" />
+          <arg nm="targetappid" val="U:VectorUnit.BeachBuggyRacing_1.2.7.0_x64__hvbhrzr8672s2!App" />
+          <arg nm="targetappver" val="1.2.7.0_x64_!2015/09/11:16:37:08!0!PurpleWinStore.exe" />
+          <arg nm="targetasid" val="1173" />
+          <arg nm="isfatal" val="1" />
+          <arg nm="userimpactvector" val="12336" />
+        </cmd>
+      </req>
+    </reqs>
+  </tlm>
+</req>
